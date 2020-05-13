@@ -1,0 +1,148 @@
+		body{
+			width:1000px;margin:auto;
+			border: 1px solid black;
+			}
+		header{
+			height:100px;
+			border: 1px solid black;
+			background-color: #3d9970;
+			border: 1px solid black;
+			}
+		footer{
+			height:100px;
+			border: 1px solid black;
+			background-color: #3d9970;
+			border: 1px solid black;
+			}						/*Name of Site*/
+		.sitename{
+			font-size: 40px;
+			font-family: Arial;
+			font-weight:bold;
+			}
+		main{
+			border: 1px solid black;
+			background-color:#DDDDDD;
+			margin-left: 201px;
+			min-height:700px;
+			height:auto;
+			border: 1px solid black;
+			}						/*Title for form*/
+		form label{
+			display: inline-block;
+			width: 100px;
+			font-weight: bold;
+			}						/*Allign the form 30px away from Main Left Border*/
+		form{
+			margin-left:30px;
+			}						/*Allign the h1 30px away from Main Left Border*/
+		.Mainh1{
+			margin-left:30px;
+			}						/*Allign the main content 30px away from Main Left Border*/
+		.Maincontent{
+			margin-left:30px;
+			}						/*Stylying of input boxes in Add Page*/
+		input[type=text], select {
+			width: 40%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			}						/*Stylying of submit button in Add Page*/
+		input[type=submit] {
+			width: 40%;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			margin-left:100px;
+			}						/*Stylying of tables wherever they are used*/
+		table{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: 80%;
+			}						/*Stylying of tables headings wherever they are used*/
+		table th{
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: #4CAF50;
+			color: white;
+			}					/*setting background-color on all even table rows*/
+		table tr:nth-child(even){
+			background-color: #f2f2f2;
+			}					/*setting backgroun*/
+		table tr:hover {		/* change color on table rows when hovering on it*/
+			background-color: #ddd;
+			}					/*Stylying of submit file button in Add Page*/
+		input[type="file"] {
+			width: 25%;
+			background-color:#2B65EC ;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			margin-left:100px;
+			}					/*Stylying text area of Description on Add Page*/
+		textarea{
+			width: 40%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-left:100px;
+			}					/*Color border for table and its rows*/
+		table, th, td{
+			border: 1px solid black;
+			}					/*Styling of Horizontal Navigation*/
+		.HorNav{
+			list-style-type:none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color:green;
+			border: 1px solid black;
+			}						/*Making Horizontal Navigation float left*/
+		.navfloat{
+			float:left;
+			}						/*Styling of Horizontal Navigation's links*/
+		.HorNav a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			
+			
+			}						/*Styling of Vertical Navigation*/
+		.VerNav{
+			float: left;
+			width:201px;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: white;
+			border-top:1px solid black;
+			}						/*Styling of Vertical Navigation's links*/
+		.VerNav a {
+			display: block;
+			color:#000;
+			padding: 14px 16px;
+			text-decoration:none;
+			
+			}						/*Color change for when hovering on the links*/
+		a:hover {
+			background-color: #555;
+			color: white;
+			}
+		.Sitenamelink{
+			text-decoration:none;
+		}
